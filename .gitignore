@@ -1,0 +1,6 @@
+bin/
+obj/
+*.xz
+*.gz
+*.log
+results/**/*.txt

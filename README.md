@@ -6,7 +6,7 @@ Changes from PA2:
 - Free translation uses the existing NO_TRANSLATION_PENALTY_FOR_PREFETCHES option, enabled only while building d16free_discard and d16free_permit.
 - Copied prefetchers omit comments, diagnostic prints and the tracker sanity assertion; stride logic is unchanged. Runner progress messages and completed-run skipping are removed. The parser writes summary.csv without printing a table.
 
-Use GCC 7 in a PA2 ChampSim checkout. Copy the contents of prefetcher/ into its prefetcher/ folder and copy run_all.sh, parse_results.py and build_all.sh into its root. Keep PA2's original ip_stride.l1d_pref and build_champsim.sh.
+Based on the CS683 PA2 ChampSim. Build with GCC 7: bash build_all.sh (from this folder).
 
 Run from the PA2 checkout:
 ```bash
